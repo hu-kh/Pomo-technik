@@ -1,0 +1,33 @@
+html, body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    user-select: none;
+    outline: none !important;
+    outline-color: transparent;
+}
+.mcolor{
+    color: rgb(4, 167, 4);
+}
+.bgc{
+    background-color: #ffbb1a;
+}
+.mtop{
+    margin-top: 35vh !important;
+}
+#sound, #active, #active_p{ 
+    display: none
+}
+a{
+    outline-color: transparent;
+    color: #777272;
+    font-size: 14px;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+    color: #454545;
+}
+#start, #timer{
+    display: block;
+}
