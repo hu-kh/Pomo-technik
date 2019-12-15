@@ -20,7 +20,7 @@ html, body {
 }
 a{
     outline-color: transparent;
-    color: #777272;
+    color: #5b5959;
     font-size: 14px;
     font-weight: bold;
 }
@@ -30,4 +30,8 @@ a:hover{
 }
 #start, #timer{
     display: block;
+}
+
+.img{
+    width: 20px;
 }

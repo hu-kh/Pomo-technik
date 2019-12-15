@@ -52,3 +52,19 @@ function start()
     var timerInterval = setInterval(updateTimer, 10);
     // clearInterval(timerInterval);
 }
+
+var c = document.getElementById("default"); //gld
+    c.onclick = function(){
+    document.getElementById("change_c").style.background = "#f7b02a";
+    document.getElementById("start").style.color = "rgb(251, 242, 103)";
+}
+var c = document.getElementById("c_1"); //red
+    c.onclick = function(){
+    document.getElementById("change_c").style.background = "rgb(251, 131, 131) none repeat scroll 0% 0%";
+    document.getElementById("start").style.color = "rgb(242, 9, 9)";
+}
+var c = document.getElementById("c_2"); //green
+    c.onclick = function(){
+    document.getElementById("change_c").style.background = "rgb(105, 159, 74) none repeat scroll 0% 0%";
+    document.getElementById("start").style.color = "rgb(150, 253, 0)";
+}
