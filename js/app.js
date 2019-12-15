@@ -57,26 +57,29 @@ function start()
 }
 
 //color gold
-var c = document.getElementById("default");     
+var c = document.getElementById("default");
     c.onclick = function(){
-    document.getElementById("change_c").style.background = "#f7b02a";
-    document.getElementById("start").style.color = "rgb(255, 251, 238)";
-    document.getElementById("active").style.color = "rgb(255, 251, 238)";
-    document.getElementById("active_p").style.color = "rgb(255, 251, 238)";
+    document.getElementById("change_c").style.background = "rgb(230, 155, 16) none repeat scroll 0% 0%";
+    document.getElementById("start").style.color = "rgb(255, 217, 94)";
+    document.getElementById("active").style.color = "rgb(255, 217, 94)";
+    document.getElementById("active_p").style.color = "rgb(255, 217, 94)";
+    document.getElementById("counter").style.color = "rgb(255, 217, 94)";
 }
 // color red
 var c = document.getElementById("c_1");      
     c.onclick = function(){
-    document.getElementById("change_c").style.background = "rgb(251, 131, 131) none repeat scroll 0% 0%";
+    document.getElementById("change_c").style.background = "rgb(255, 104, 104) none repeat scroll 0% 0%";
     document.getElementById("start").style.color = "rgb(232, 21, 21)";
     document.getElementById("active").style.color = "rgb(232, 21, 21)";
     document.getElementById("active_p").style.color = "rgb(232, 21, 21)";
+    document.getElementById("counter").style.color = "rgb(232, 21, 21)";
 }
 // color green
 var c = document.getElementById("c_2");  
     c.onclick = function(){
     document.getElementById("change_c").style.background = "rgb(91, 172, 44) none repeat scroll 0% 0%";
-    document.getElementById("start").style.color = "rgb(181, 255, 74)";
-    document.getElementById("active").style.color = "rgb(181, 255, 74)";
-    document.getElementById("active_p").style.color = "rgb(181, 255, 74)";
+    document.getElementById("start").style.color = "rgb(153, 247, 17)";
+    document.getElementById("active").style.color = "rgb(153, 247, 17)";
+    document.getElementById("active_p").style.color = "rgb(153, 247, 17)";
+    document.getElementById("counter").style.color = "rgb(153, 247, 17)";
 }
