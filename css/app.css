@@ -6,6 +6,9 @@ html, body {
     outline: none !important;
     outline-color: transparent;
 }
+.cblack{
+    color: #454545;
+}
 .mcolor{
     color: rgb(71, 72, 71);
 }
