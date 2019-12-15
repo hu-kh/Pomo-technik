@@ -7,7 +7,7 @@ html, body {
     outline-color: transparent;
 }
 .mcolor{
-    color: rgb(4, 167, 4);
+    color: rgb(71, 72, 71);
 }
 .bgc{
     background-color: #ffbb1a;
@@ -16,7 +16,7 @@ html, body {
     margin-top: 35vh !important;
 }
 #sound, #active, #active_p{ 
-    display: none
+    display: none;
 }
 a{
     outline-color: transparent;
@@ -34,4 +34,10 @@ a:hover{
 
 .img{
     width: 20px;
+    cursor: pointer;
+}
+
+.counter{
+    font-weight: bold;
+    font-size: 15px;
 }

@@ -19,7 +19,7 @@ function start()
         var hours = Math.floor(tm / 1000 / 60 / 60);
         var minutes = Math.floor(tm / 60000) % 60;
         var seconds =  ((tm / 1000) % 60);
-        // saca los decimales ej 2 d{0,2}
+
         var seconds = seconds.toString().match(/^-?\d+(?:\.\d{0,-1})?/)[0];
         var miliseconds = ("00" + tm).slice(-3);
         var centiseconds;
@@ -35,8 +35,12 @@ function start()
             hours='';
         }
 
+        var str = "&#1575;";
+        var count = document.getElementById("counter");
+
         if(minutes == 25)
         {
+            count.innerHTML += str;
             var sound = document.getElementById("sound");
             sound.play();
             clearInterval(timerInterval);
@@ -50,21 +54,29 @@ function start()
     }
 
     var timerInterval = setInterval(updateTimer, 10);
-    // clearInterval(timerInterval);
 }
 
-var c = document.getElementById("default"); //gld
+//color gold
+var c = document.getElementById("default");     
     c.onclick = function(){
     document.getElementById("change_c").style.background = "#f7b02a";
-    document.getElementById("start").style.color = "rgb(251, 242, 103)";
+    document.getElementById("start").style.color = "rgb(255, 251, 238)";
+    document.getElementById("active").style.color = "rgb(255, 251, 238)";
+    document.getElementById("active_p").style.color = "rgb(255, 251, 238)";
 }
-var c = document.getElementById("c_1"); //red
+// color red
+var c = document.getElementById("c_1");      
     c.onclick = function(){
     document.getElementById("change_c").style.background = "rgb(251, 131, 131) none repeat scroll 0% 0%";
-    document.getElementById("start").style.color = "rgb(242, 9, 9)";
+    document.getElementById("start").style.color = "rgb(232, 21, 21)";
+    document.getElementById("active").style.color = "rgb(232, 21, 21)";
+    document.getElementById("active_p").style.color = "rgb(232, 21, 21)";
 }
-var c = document.getElementById("c_2"); //green
+// color green
+var c = document.getElementById("c_2");  
     c.onclick = function(){
-    document.getElementById("change_c").style.background = "rgb(105, 159, 74) none repeat scroll 0% 0%";
-    document.getElementById("start").style.color = "rgb(150, 253, 0)";
+    document.getElementById("change_c").style.background = "rgb(91, 172, 44) none repeat scroll 0% 0%";
+    document.getElementById("start").style.color = "rgb(181, 255, 74)";
+    document.getElementById("active").style.color = "rgb(181, 255, 74)";
+    document.getElementById("active_p").style.color = "rgb(181, 255, 74)";
 }
