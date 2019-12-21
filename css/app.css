@@ -18,7 +18,7 @@ html, body {
 .mtop{
     margin-top: 35vh !important;
 }
-#sound, #active, #active_p{ 
+#sound, #active, #active_p{
     display: none;
 }
 a{
@@ -36,7 +36,7 @@ a:hover{
 }
 
 .img{
-    width: 20px;
+    width: 15px;
     cursor: pointer;
 }
 
