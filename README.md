@@ -1,1 +1,1 @@
-[demo](https://hu-kh.github.io/Pomo-technik/index)
+[demo](https://hu0599.github.io/Pomo-technik/)
